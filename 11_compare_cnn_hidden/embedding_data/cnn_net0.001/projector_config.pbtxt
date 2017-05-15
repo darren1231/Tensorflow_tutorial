@@ -1,0 +1,9 @@
+embeddings {
+  tensor_name: "embedding:0"
+  metadata_path: "D:\\github up load program\\Tensorflow_tutorial\\11_compare_cnn_hidden/embedding_data/labels_1024.tsv"
+  sprite {
+    image_path: "D:\\github up load program\\Tensorflow_tutorial\\11_compare_cnn_hidden/embedding_data/sprite_1024.png"
+    single_image_dim: 28
+    single_image_dim: 28
+  }
+}

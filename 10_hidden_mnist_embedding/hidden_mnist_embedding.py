@@ -20,7 +20,7 @@ else:
 # obtain the location where you run the code   
 os_location=os.getcwd()
 LOGDIR = os_location+'/embedding_data/'
-GITHUB_URL ='https://raw.githubusercontent.com/darren1231/Tensorflow_tutorial/master/8_hidden_mnist_embedding/'
+GITHUB_URL ='https://raw.githubusercontent.com/darren1231/Tensorflow_tutorial/master/10_hidden_mnist_embedding/'
 mnist = tf.contrib.learn.datasets.mnist.read_data_sets(train_dir=LOGDIR + 'data', one_hot=True)
 urlretrieve(GITHUB_URL + 'labels_1024.tsv', LOGDIR + 'labels_1024.tsv')
 urlretrieve(GITHUB_URL + 'sprite_1024.png', LOGDIR + 'sprite_1024.png')
